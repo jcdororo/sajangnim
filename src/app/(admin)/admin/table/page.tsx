@@ -1,3 +1,5 @@
+import { TableManagementClient } from '@/components/admin/table-client'
+
 export default function AdminTablePage() {
-  return <div>테이블 관리</div>
+  return <TableManagementClient />
 }

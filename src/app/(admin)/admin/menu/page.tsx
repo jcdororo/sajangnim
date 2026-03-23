@@ -1,3 +1,5 @@
+import { MenuManagementClient } from '@/components/admin/menu-client'
+
 export default function AdminMenuPage() {
-  return <div>메뉴 관리</div>
+  return <MenuManagementClient />
 }
